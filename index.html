@@ -1,0 +1,41 @@
+---
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#2d2d2d"
+  overlay_filter: "0.4"
+  overlay_image: /assets/images/hero.jpg
+  actions:
+    - label: "Get in Touch"
+      url: "/contact/"
+  caption:
+excerpt: "A short, confident sentence about what your company does and who it does it for."
+intro:
+  - excerpt: "One or two sentences that expand on your value proposition. This sits just below the hero and sets up the feature rows below."
+feature_row:
+  - image_path: /assets/images/feature-1.png
+    alt: "Service one"
+    title: "Service One"
+    excerpt: "Brief description of the first core service or offering."
+    url: "/services/#service-one"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feature-2.png
+    alt: "Service two"
+    title: "Service Two"
+    excerpt: "Brief description of the second core service or offering."
+    url: "/services/#service-two"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feature-3.png
+    alt: "Service three"
+    title: "Service Three"
+    excerpt: "Brief description of the third core service or offering."
+    url: "/services/#service-three"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+---
+
+{% include feature_row id="intro" type="center" %}
+{% include feature_row %}

@@ -1,0 +1,90 @@
+# ----------------------- Site Settings -----------------------
+locale                   : "en-US"
+title                    : "Knoblauch Resources"
+title_separator          : "-"
+subtitle                 : "Tagline or short description goes here"
+name                     : "Knoblauch Resources"
+description              : "A short, one-sentence description of what your company does, used for SEO and social sharing."
+url                      : "https://knoblauchresources.com"
+baseurl                  : ""
+repository               : "dancocos/knoblauchresources"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/teaser.png"
+logo                     : "/assets/images/logo.png"
+masthead_title           : "Knoblauch Resources"
+
+# ----------------------- Theme -----------------------
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default"   # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunset
+
+# ----------------------- Build Settings -----------------------
+markdown                 : kramdown
+highlighter               : rouge
+permalink                : /:categories/:title/
+paginate                 : 6
+paginate_path            : /page:num/
+timezone                 : America/New_York
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# ----------------------- Author / Company Info -----------------------
+author:
+  name             : "Your Company Name"
+  avatar           : "/assets/images/logo.png"
+  bio              : "Short description of your company shown in the sidebar."
+  location         : "Washington, DC"
+  email            : "hello@yourdomain.com"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.yourdomain.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/yourcompany"
+    - label: "Twitter/X"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/yourcompany"
+
+# ----------------------- Footer Links -----------------------
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/company/yourcompany"
+    - label: "Twitter/X"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/yourcompany"
+
+# ----------------------- Default Layouts -----------------------
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# ----------------------- SEO -----------------------
+google_site_verification :
+og_image                 : "/assets/images/logo.png"
