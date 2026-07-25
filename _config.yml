@@ -2,12 +2,12 @@
 locale                   : "en-US"
 title                    : "Knoblauch Resources"
 title_separator          : "-"
-subtitle                 : "Tagline or short description goes here"
+subtitle                 : "Stewardship at Depth."
 name                     : "Knoblauch Resources"
-description              : "A short, one-sentence description of what your company does, used for SEO and social sharing."
+description              : "A Future We Share - The transition to clean energy demands materials that only the ocean can provide in sufficient quantity. Knoblauch Resources is proud to be part of that supply chain — quietly, responsibly, and with the long horizon in mind."
 url                      : "https://knoblauchresources.com"
 baseurl                  : ""
-repository               : "dancocos/knoblauchresources"
+repository               : #"dancocos/knoblauchresources"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/teaser.png"
 logo                     : "/assets/images/logo.png"
 masthead_title           : "Knoblauch Resources"
@@ -36,31 +36,31 @@ plugins:
 
 # ----------------------- Author / Company Info -----------------------
 author:
-  name             : "Your Company Name"
+  name             : "Knoblauch Resources"
   avatar           : "/assets/images/logo.png"
-  bio              : "Short description of your company shown in the sidebar."
-  location         : "Washington, DC"
-  email            : "hello@yourdomain.com"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.yourdomain.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/company/yourcompany"
-    - label: "Twitter/X"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/yourcompany"
+  bio              : "Stewardship at Depth."
+  location         : "Worldwide"
+#  email            : ""
+#  links:
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://www.yourdomain.com"
+#    - label: "LinkedIn"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: "https://linkedin.com/company/yourcompany"
+#    - label: "Twitter/X"
+#      icon: "fab fa-fw fa-twitter"
+#      url: "https://twitter.com/yourcompany"
 
 # ----------------------- Footer Links -----------------------
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/company/yourcompany"
-    - label: "Twitter/X"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/yourcompany"
+#footer:
+#  links:
+#    - label: "LinkedIn"
+#      icon: "fab fa-fw fa-linkedin"
+#      url: "https://linkedin.com/company/yourcompany"
+#    - label: "Twitter/X"
+#      icon: "fab fa-fw fa-twitter"
+#      url: "https://twitter.com/yourcompany"
 
 # ----------------------- Default Layouts -----------------------
 defaults:
