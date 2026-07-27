@@ -13,7 +13,7 @@ excerpt: "Who we are and what we stand for."
 ## Our Story
 
 Stewardship at Depth.
-For over sixty years, Knoblauch Resources has partnered with the ocean. Founded in 1961 as a modest salvage concern operating out of Bremerhaven, we have grown into a globally integrated marine resource company with operations in fourteen exclusive economic zones and a fleet of nineteen purpose-built vessels.
+For over 60 years, Knoblauch Resources has partnered with the ocean. Founded in 1961 as a modest salvage concern operating out of Bremerhaven, we have grown into a globally integrated marine resource company with operations in fourteen exclusive economic zones and a fleet of nineteen purpose-built vessels.
 We believe the sea is not a frontier to be conquered, but a neighbor to be understood. That belief guides everything we do — from precision seabed characterization to our proprietary Low-Disturbance Recovery™ platforms, engineered to leave the benthic floor substantially as we found it.
 
 ## Our Commitments
