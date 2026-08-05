@@ -88,3 +88,10 @@ defaults:
 # ----------------------- SEO -----------------------
 google_site_verification :
 og_image                 : "/assets/images/logo.png"
+
+# ----------------------- Analytics -----------------------
+analytics:
+  provider                : "google-gtag"
+  google:
+    tracking_id            : "G-JTY4SE3WC4"
+    anonymize_ip           : # true, false (default)
